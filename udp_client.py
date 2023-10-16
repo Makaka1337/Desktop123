@@ -9,7 +9,7 @@ ADDR = (HOST, PORT)
 
 udpCliSock = socket(AF_INET, SOCK_DGRAM)
 while True:
-
+    s = 3
 
     message = input('Введите сообщение: ')
     udpCliSock.sendto(message.encode('utf-8'), ADDR)
