@@ -5,8 +5,6 @@ PORT = 21567
 BUFSIZE = 1024
 ADDR = (HOST, PORT)
 
-
-
 udpCliSock = socket(AF_INET, SOCK_DGRAM)
 while True:
     message = input('Введите сообщение: ')
